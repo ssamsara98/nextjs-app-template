@@ -64,7 +64,7 @@ export const ChartSection = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-emerald-400">Dataset</span>{' '}
           <Icon as={MdReceipt} />
         </h2>
-        <Bar options={options} data={data} />
+        <Bar options={options as any} data={data} />
       </main>
     </>
   );
