@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import { getServerSession } from 'next-auth/next';
-import { ChartSection } from './chart-section';
 import { authOptions } from '~/lib/auth';
+import { ChartSection } from './chart-section';
+import './page.css';
 import { UserComponent } from './user.component';
 
 export default async function Home() {

@@ -1,3 +1,10 @@
+body {
+  @apply text-white bg-gradient-to-b from-transparent to-black bg-black;
+  /* color: white;
+  background-image: linear-gradient(to bottom, transparent, black);
+  background-color: black; */
+}
+
 .container {
   max-width: 124rem;
   padding: 4rem 1rem;
